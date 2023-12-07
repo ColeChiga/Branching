@@ -23,6 +23,7 @@
 * git config 						shows git configuration
 		-l							list local git configurations
 
+* git help 							show synopsis of git commands
 
 ### local
 
