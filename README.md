@@ -74,3 +74,44 @@ Summary of common git commands, practice with branching and getting to know git
 
 When in vi editor: (esc) ':wq' escapes the editor
 
+
+## Summary of branch workflow
+
+1. checkout and pull main
+	```bash
+	git checkout main
+	git pull origin main
+	```
+1. checkout new branch from up-to-date main
+	```bash
+	git checkout -b someFeature
+	```
+1. work, committing each completed task until feature is complete
+1. pull remote main into local branch
+	```bash
+	git add .
+	git commit -m "coplete feature"
+	git pull origin main
+	```
+
+	* if auto merge succeeds, save and quit from vi editor
+		```bash
+		:wq
+		```
+	* if 'CONFLICT', fix conflicts in all files, removing merge markers and commit
+		```bash
+		git add .
+		git commit -m "fix merge conflicts"
+		```
+1. push to remote branch 
+	```bash
+	git push origin someFeature
+	```
+1. on github checkout pull request and merge main	
+1. checkout and pull merged main 
+	```bash
+	git checkout main
+	git merge someFeature
+	```
+
+
