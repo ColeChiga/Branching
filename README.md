@@ -67,6 +67,7 @@ Summary of common git commands, practice with branching and getting to know git
 
 * git pull__________________________downloads commits from remote branch and merges it with local repository
 		--rebase____________________pulls from a remote branch at rebases your branch to it.
+		origin branchname___________pull remote branch 'name' into current local branch
 
 * git push__________________________puhes local repository to the remote branch
 
