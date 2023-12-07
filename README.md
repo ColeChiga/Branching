@@ -18,11 +18,17 @@
 * find .git 						shows files in .git (showing what files are tracked) 
 	
 * git log	 						shows the log of commits, data of commit, message, user, etc.
-	
+		--oneline					shows commits on one line (each) shows first 7 digits of commit name
+
+* git config 						shows git configuration
+		-l							list local git configurations
+
+
 ### local
 
 
-* git branch (new commit) 			creates a new title that moves independently
+* git branch 						lists local branches
+			(new commit) 			creates a new title that moves independently
 		  -f (diff commit) HEAD~ 	moves a different title up a number relative to head 	
 		  -u o.main (commit)		changes the reference of main (on remote) to the commit given
 
