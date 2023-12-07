@@ -2,6 +2,7 @@
 
 ## git commands: 
 
+Summary of common git commands, practice with branching and getting to know git
 
 ### basic 
 
