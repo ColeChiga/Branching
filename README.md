@@ -14,17 +14,17 @@ Summary of common git commands, practice with branching and getting to know git
 
 * git commit________________________records a snapshot of tracked files
 			--amend_________________copies and slightly changes commit
-			-m " "					commits and allows a message to be paired with the commit	
+			-m " "__________________commits and allows a message to be paired with the commit	
 
-* find .git 						shows files in .git (showing what files are tracked) 
+* find .git_________________________shows files in .git (showing what files are tracked) 
 	
-* git log	 						shows the log of commits, data of commit, message, user, etc.
-		--oneline					shows commits on one line (each) shows first 7 digits of commit name
+* git log___________________________shows the log of commits, data of commit, message, user, etc.
+		--oneline___________________shows commits on one line (each) shows first 7 digits of commit name
 
-* git config 						shows git configuration
-		-l							list local git configurations
+* git config________________________shows git configuration
+		-l__________________________list local git configurations
 
-* git help 							show synopsis of git commands
+* git help___________________________show synopsis of git commands
 
 ### local
 
@@ -71,5 +71,5 @@ Summary of common git commands, practice with branching and getting to know git
 * git push__________________________puhes local repository to the remote branch
 
 
-
+When in vi editor: (esc) ':wq' escapes the editor
 
