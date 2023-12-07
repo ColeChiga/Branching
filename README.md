@@ -111,7 +111,7 @@ When in vi editor: (esc) ':wq' escapes the editor
 1. checkout and pull merged main 
 	```bash
 	git checkout main
-	git merge someFeature
+	git pull origin main
 	```
 
 
